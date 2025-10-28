@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        background-color: azure;
+        font-family: sans-serif;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin: 0px;
+        max-width: 1200px;
+        gap: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="cards">
+        <img src="./img1.avif" />
+        <img src="./img2.avif" />
+        <img src="./img3.avif" />
+        <img src="./img4.avif" />
+      </div>
+    </section>
+  </body>
+</html>
